@@ -224,6 +224,10 @@ body {
   box-shadow: var(--shadow-4);
 }
 
+.btn-link {
+  display: inline-block;
+}
+
 .btn:is(:hover, :focus) {
   --deg: -90deg;
 }
