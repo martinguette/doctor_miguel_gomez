@@ -193,7 +193,7 @@ body {
 
 .h1 {
   color: var(--oxford-blue-1);
-  font-size: var(--fs-2);
+  font-size: var(--fs-1);
 }
 
 .h2,
@@ -435,6 +435,10 @@ body {
   margin-block-end: 8px;
 }
 
+.service-card:is(:hover) {
+  border-color: var(--carolina-blue);
+}
+
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -522,7 +526,7 @@ body {
   margin-inline: 15px;
   padding-block-end: 40px;
   margin-block-end: -20px;
-  scroll-snap-type: inline mandatory;
+  scroll-snap-type: inline proximity;
 }
 
 .scrollbar-item {
@@ -1199,6 +1203,7 @@ body {
     --fs-2: 8rem;
     --fs-1: 5.5rem;
     --fs-3: 4.8rem;
+    --fs-4: 5.7rem;
   }
 
   /**
