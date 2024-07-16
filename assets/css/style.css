@@ -712,7 +712,7 @@ body {
 .footer-list-title {
   color: var(--white);
   font-family: var(--ff-poppins);
-  font-size: var(--fs-4);
+  font-size: var(--fs-5);
   font-weight: var(--fw-700);
   margin-block-end: 10px;
 }
