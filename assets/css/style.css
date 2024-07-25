@@ -182,6 +182,19 @@ body {
   font-weight: var(--fw-700);
   text-transform: uppercase;
   margin-block-end: 10px;
+  margin-block-start: 10px;
+}
+.section-subtitle1 {
+  color: var(--royal-blue-light);
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  margin-block-end: 20px;
+  margin-block-start: 20px;
+}
+.section-subtitle1:is(:hover, :focus) {
+  color: var(--oxford-blue-1);
 }
 
 .h1,
