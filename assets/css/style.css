@@ -427,6 +427,9 @@ body {
 .service .section-title {
   margin-block-end: 50px;
 }
+.contact .section-title {
+  margin-block-end: 50px;
+}
 
 .service-list {
   display: grid;
