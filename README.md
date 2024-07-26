@@ -1,2 +1,2 @@
 # doctor_miguel_gomez
-![image](https://github.com/user-attachments/assets/339decd6-22fa-4292-8d29-223ae95bfcf2)
+![miguel](https://github.com/user-attachments/assets/10216811-d739-455d-a2ff-9c2defb348c2)
