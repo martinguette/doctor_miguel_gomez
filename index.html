@@ -1024,9 +1024,17 @@
       <div class="footer-bottom">
         <div class="container">
           <p class="copyright">
-            &copy; Doctor Miguel Gómez © 2024 | Todos Los Derechos Reservados
+            &copy; Doctor Miguel Gómez <span id="current-year"></span> | Todos
+            Los Derechos Reservados
           </p>
-          <p class="copyright">&copy; Desarrollado por Martin Guette Pardo</p>
+          <a
+            href="https://martinguetteportfolio.netlify.app/"
+            rel="noopener noreferrer"
+            aria-label="Portafolio de Martin Guette Pardo"
+            target="_blank"
+            title="Ir a portafolio"
+            >Martin Guette Pardo</a
+          >
 
           <ul class="social-list">
             <li>
@@ -1079,6 +1087,15 @@
     - custom js link
   -->
     <script src="./assets/js/script.js" defer></script>
+    <script>
+      // Añade el año actual al copyright
+      document.addEventListener('DOMContentLoaded', function () {
+        var yearSpan = document.getElementById('current-year');
+        if (yearSpan) {
+          yearSpan.textContent = new Date().getFullYear();
+        }
+      });
+    </script>
 
     <!-- 
     - ionicon link
