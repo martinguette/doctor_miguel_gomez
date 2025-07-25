@@ -47,8 +47,8 @@
    * typography
    */
 
-  --ff-roboto: "Roboto", sans-serif;
-  --ff-poppins: "Poppins", sans-serif;
+  --ff-roboto: 'Roboto', sans-serif;
+  --ff-poppins: 'Poppins', sans-serif;
 
   --fs-1: 4rem;
   --fs-2: 3.6rem;
@@ -668,7 +668,7 @@ body {
 }
 
 .blog-card .card-link::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -774,6 +774,10 @@ body {
   color: var(--white);
   line-height: 1.6;
   margin-block-end: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
 }
 
 .footer .social-list {
@@ -1029,7 +1033,10 @@ body {
   }
 
   .copyright {
-    margin-block-end: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
   }
 
   /**

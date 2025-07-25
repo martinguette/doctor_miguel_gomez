@@ -1023,17 +1023,18 @@
 
       <div class="footer-bottom">
         <div class="container">
-          <p class="copyright">
-            &copy; Doctor Miguel Gómez <span id="current-year"></span> | Todos
-            Los Derechos Reservados
+          <p class="copyright" id="copyright-text">
+            &copy; Doctor Miguel Gómez Todos Los Derechos Reservados
           </p>
+
           <a
+            class="copyright"
             href="https://martinguetteportfolio.netlify.app/"
             rel="noopener noreferrer"
             aria-label="Portafolio de Martin Guette Pardo"
             target="_blank"
             title="Ir a portafolio"
-            >Martin Guette Pardo</a
+            >&copy; Desarrollado por Martin Guette Pardo</a
           >
 
           <ul class="social-list">
@@ -1087,15 +1088,6 @@
     - custom js link
   -->
     <script src="./assets/js/script.js" defer></script>
-    <script>
-      // Añade el año actual al copyright
-      document.addEventListener('DOMContentLoaded', function () {
-        var yearSpan = document.getElementById('current-year');
-        if (yearSpan) {
-          yearSpan.textContent = new Date().getFullYear();
-        }
-      });
-    </script>
 
     <!-- 
     - ionicon link
